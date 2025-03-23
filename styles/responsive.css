@@ -1,0 +1,108 @@
+@media (max-width: 750px) {
+.section_two {
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+
+.img_two{
+    margin:10% 0;
+}
+
+.paragrafo_sobrenos{
+    margin: 10% 10%;
+    text-align: center;
+}
+
+.section_four{
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+
+.img_quatro {
+    margin: 0;
+}
+
+.titulo_jornada {
+    margin: 5% 0;
+}
+
+.icone_instagram {
+    width: 15%;
+}
+
+.image_one {
+display: none;
+}
+
+.image_one_responsive {
+   display: block;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.img_tres {
+    display: none;
+}
+
+.img_tres_responsive{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.img_cinco{
+    display: none;
+}
+
+.img_cinco_responsive {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+}
+
+@media (max-width: 500px) {
+
+.titulo_sobrenos{
+    font-size: 30px; 
+}
+
+   .titulo_jornada {
+    font-size: 30px;
+   }
+
+   .texto_jornada{
+    font-size: 20px;
+    text-align: center;
+   }
+
+   .texto_jornada_dois{
+    font-size: 20px;
+    text-align: center;
+   }
+
+   .titulo_sobrenos {
+    font-size: 30px;
+   }
+
+   .paragrafo_sobrenos{
+    font-size: 20px;
+    text-align: center;
+   }
+
+    .texto_novidade {
+        font-size: 20px;
+    }
+
+    .texto_versiculo {
+        font-size: 17px;
+    }
+
+   
+}

@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Schoolbell&display=swap');
+
+:root {
+    --cor-fundo: #FFFFE2;
+    --fonte-principal: 'Montserrat';
+
+    --cor-fonte-secundaria: #FF7503;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--cor-fundo);
+    font-family: var(--fonte-principal);
+}
+
+body,
+html {
+    height: 100%;
+    font-family: var(--fonte-principal)
+}
+
+.image_one {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.image_one_responsive{
+    display: none;
+}
+
+.section_two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img_two {
+    width: 30%;
+    margin: 15% 5% 15% 8%;
+}
+
+.titulo_sobrenos {
+    font-size: 35px;
+    margin: 0 0 3% 0;
+    font-weight: 600;
+    
+}
+
+.paragrafo_sobrenos {
+    margin: 0 15% 0 0%;
+    text-align: left;
+    font-size: 25px;
+}
+
+.img_tres {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.img_tres_responsive {
+    display: none;
+}
+
+.section_four{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10% 10%;
+}
+
+.img_quatro {
+    width: 30%;
+    margin: 0 0 0 5% ;
+}
+
+.container_jornada {
+    margin: 5% 0% 5% 4%;
+}
+
+.titulo_jornada {
+    font-size: 35px;
+    margin: 0 0 5% 4%;
+    font-weight: 600;
+}
+
+.texto_jornada{
+    margin: 0 4%;
+    text-align: left;
+    font-size: 25px;
+}
+
+.texto_jornada_dois{
+    margin: 3% 4% 0 4%;
+    text-align: left;
+    font-size: 25px;
+}
+
+.img_cinco {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.img_cinco_responsive {
+    display: none;
+}
+
+.section_six {
+    align-items: center;
+    text-align: center;
+    margin:0 0 10% 0;
+}
+
+.texto_novidade{
+    font-size: 24px;
+    color: var(--cor-fonte-secundaria);
+    font-weight: 600;
+    margin: 5% 15% 3% 15%;
+}
+
+.texto_versiculo{
+    font-size: 22px;
+    margin: 1% 20% 10% 20%;
+}
+
+.icone_instagram{
+    width: 4%;
+    margin: 2% 0 0 0;
+}
+
+.texto_direitos {
+    margin: 5%;
+    padding: 0 0 4% 0;
+}
+
